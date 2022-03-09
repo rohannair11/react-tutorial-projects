@@ -2,10 +2,14 @@
     display: flex;
     justify-content: center;
     margin: 10px;
+
 }
 
 .search-input{
     padding: 5px 10px;
     font-size: 1rem;
     border-radius: 100px;
+    background: #7a61d4;
+    border-color: #7a61d4;
+    color: #ffffff;
 }
