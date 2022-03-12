@@ -10,11 +10,13 @@ class App extends React.Component{
   state = {
     headerText: "startup namer",
     headerLarge: true,
+    suggestedNames :[],
   }
   handleChange = (inputText) => {
     this.setState(
       {
         headerLarge: !(inputText),
+        suggestedNames : name(inputText),
       }
     )
   }
@@ -24,7 +26,7 @@ class App extends React.Component{
       <div>
         <Header text = {this.state.headerText} headerLarge = {this.state.headerLarge} />
         <SearchBox onInputChange = {this.handleChange}/>
-        <ResultsContainer />
+        <ResultsContainer suggestedNames = {this.state.suggestedNames} />
       </div>
     )
   }
