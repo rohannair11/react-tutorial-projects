@@ -1,0 +1,10 @@
+.landing-container{
+    display: flex;
+    min-height: 90vh;    
+}
+
+.landing-header{
+    font-size: 92px;
+    letter-spacing: 4px;
+    margin: 0;
+}
