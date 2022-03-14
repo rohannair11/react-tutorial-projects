@@ -1,0 +1,19 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background: #1d2020;
+    margin: 0;
+
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.title-text{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    color: beige;
+}

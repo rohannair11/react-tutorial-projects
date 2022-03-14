@@ -1,3 +1,12 @@
-.test{
-    font-family: 'Montserrat', sans-serif;
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    color: black;
 }
